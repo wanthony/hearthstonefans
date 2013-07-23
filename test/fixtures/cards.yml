@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  player_class: MyString
+  quality: MyString
+  card_type: MyString
+  race: MyString
+  mana_cost: 1
+  attack_damage: 1
+  health: 1
+  description: MyText
+
+two:
+  name: MyString
+  player_class: MyString
+  quality: MyString
+  card_type: MyString
+  race: MyString
+  mana_cost: 1
+  attack_damage: 1
+  health: 1
+  description: MyText

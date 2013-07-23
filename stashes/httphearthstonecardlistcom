@@ -1,0 +1,2949 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Hearthstone Card List</title>
+	<meta name="description" content="Hearthstone Card List. You will find here the list of all known pre-beta cards for Hearthstone. All 100% confirmed from screenshots and videos.">
+	<meta name="keywords" content="Hearthstone, heroes of warcraft, card game, card list, cardlist, tcg, tool, embed">
+	<meta name="author" content="HearthstoneHelp.com">
+	<meta charset="ISO-8859-1">
+	<link rel="icon" type="image/png" href="http://www.hearthstonecardlist.com/hearthstone.png">
+	<link href="/templates/style.css" rel="stylesheet" type="text/css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>
+	<script src="http://www.hearthstonecardlist.com/templates/jquery.tablesorter.min.js" type="text/javascript"></script>
+	<script src="http://www.hearthstonecardlist.com/templates/tooltip_card.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div id="main_wrap">
+	<div id="main">
+		<div id="main_header"><div align="right">
+<img src="/modules/account/images/en.png" border="0"/> <a href="/modules/account/language_action.php?languageid=2"><img src="/modules/account/images/fr.png" border="0"/></a> </div></div>
+		
+		<div id="main_content">
+		<center><script type="text/javascript"><!--
+		google_ad_client = "ca-pub-9289210612078006";
+		/* HCL.com - Header - 728x90 */
+		google_ad_slot = "3821202321";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script></center>
+
+			<p id="filtername" style="cursor:pointer;"><strong>Filter</strong></p>
+			<div id="filter" style="display:none"><form method="post" action="">
+<fieldset style="width:130px;">
+<legend>Class</legend>
+			<ul>
+							<input type="checkbox" name="FilterClass[]" value="2"> Druid<br />
+								<input type="checkbox" name="FilterClass[]" value="3"> Hunter<br />
+								<input type="checkbox" name="FilterClass[]" value="4"> Mage<br />
+								<input type="checkbox" name="FilterClass[]" value="5"> Paladin<br />
+								<input type="checkbox" name="FilterClass[]" value="6"> Priest<br />
+								<input type="checkbox" name="FilterClass[]" value="7"> Rogue<br />
+								<input type="checkbox" name="FilterClass[]" value="8"> Shaman<br />
+								<input type="checkbox" name="FilterClass[]" value="9"> Warlock<br />
+								<input type="checkbox" name="FilterClass[]" value="10"> Warrior<br />
+								<input type="checkbox" name="FilterClass[]" value="11"> All<br />
+							</ul>
+		</select>
+</fieldset>
+<p align="right">
+	<input type="submit" name="submit" id="submit" value="Filter" />
+</p>
+</form>
+</div>
+			<div id="main_center">
+<SCRIPT language="javascript" type="text/javascript">
+function swapbg(item){
+ if(document.getElementById(item).checked){
+  document.getElementById(item+'bg').style.background='#efcd94'
+ }
+ else{
+  document.getElementById(item+'bg').style.background=''
+ }
+}
+</SCRIPT>
+<table id="myTable" class="LineBorder">
+<thead> 
+<tr height="45px" align="left" valign="middle" bgcolor="#EEEEEE">
+	<th width="25px"></th>
+	<th width="200px" style="cursor:pointer;">Name</th>
+	<th width="60px" align="center" style="cursor:pointer;">Class</th>
+	<th width="60px" align="left" style="cursor:pointer;">Rarity</th>
+	<th width="60px" align="left" style="cursor:pointer;">Type</th>
+	<th width="60px" align="left" style="cursor:pointer;">Race</th>	
+	<th width="35px" align="center" style="cursor:pointer;"><img src="../../templates/images/mana.png" border="0"></th>	
+	<th width="35px" align="center" style="cursor:pointer;"><img src="../../templates/images/attack.png" border="0"></th>	
+	<th width="35px" align="center" style="cursor:pointer;"><img src="../../templates/images/life.png" border="0"></th>	
+	<th width="250px" align="left" style="cursor:pointer;">Description</th>	
+</tr>
+</thead> 
+<tbody> 
+	<tr height="45px" align="left" id="item0bg">
+		<td><input type="checkbox" id="item0" onclick="swapbg('item0')"></td>
+		<td>Abomination</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td>Taunt. Deathrattle: Deal 2 damage to ALL characters.</td>
+	</tr>
+		<tr height="45px" align="left" id="item1bg">
+		<td><input type="checkbox" id="item1" onclick="swapbg('item1')"></td>
+		<td>Acolyte of Pain</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">1</td>
+		<td align="center">4</td>
+		<td>Whenever this minion takes damage, draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item2bg">
+		<td><input type="checkbox" id="item2" onclick="swapbg('item2')"></td>
+		<td>Adrenaline Rush</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Epic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Draw a card. Combo: Draw 2 instead.</td>
+	</tr>
+		<tr height="45px" align="left" id="item3bg">
+		<td><input type="checkbox" id="item3" onclick="swapbg('item3')"></td>
+		<td>Al'Akir the Windlord</td>
+		<td align="center"><img src="../../templates/images/Shaman.png" alt="Shaman" \></td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">8</td>
+		<td align="center">3</td>
+		<td align="center">5</td>
+		<td>Windfury. Charge. Divine Shield. Taunt.</td>
+	</tr>
+		<tr height="45px" align="left" id="item4bg">
+		<td><input type="checkbox" id="item4" onclick="swapbg('item4')"></td>
+		<td>Alarm-O-Bot</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">0</td>
+		<td align="center">3</td>
+		<td>At the start of your turn, swap this minion with a random one in your hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item5bg">
+		<td><input type="checkbox" id="item5" onclick="swapbg('item5')"></td>
+		<td>Alextraza</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td>Dragon</td>
+		<td align="center">9</td>
+		<td align="center">8</td>
+		<td align="center">8</td>
+		<td>Battlecry: Set a hero's remaining Health to 15.</td>
+	</tr>
+		<tr height="45px" align="left" id="item6bg">
+		<td><input type="checkbox" id="item6" onclick="swapbg('item6')"></td>
+		<td>Amani Berserker</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td>Enrage: +3 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item7bg">
+		<td><input type="checkbox" id="item7" onclick="swapbg('item7')"></td>
+		<td>Ancestral Healing</td>
+		<td align="center"><img src="../../templates/images/Shaman.png" alt="Shaman" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Restore a minion to full Health.</td>
+	</tr>
+		<tr height="45px" align="left" id="item8bg">
+		<td><input type="checkbox" id="item8" onclick="swapbg('item8')"></td>
+		<td>Ancestral Spirit</td>
+		<td align="center"><img src="../../templates/images/Shaman.png" alt="Shaman" \></td>
+		<td>Rare</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Choose a minion. When that minion is destroyed, return it to the battlefield.</td>
+	</tr>
+		<tr height="45px" align="left" id="item9bg">
+		<td><input type="checkbox" id="item9" onclick="swapbg('item9')"></td>
+		<td>Ancient Brewmaster</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">5</td>
+		<td align="center">4</td>
+		<td>Battlecry: Return a friendly minion from the battlefield to your hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item10bg">
+		<td><input type="checkbox" id="item10" onclick="swapbg('item10')"></td>
+		<td>Ancient of Lore</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Epic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">7</td>
+		<td align="center">5</td>
+		<td align="center">5</td>
+		<td>Choose One - Draw 2 cards; or Restore 8 Health.</td>
+	</tr>
+		<tr height="45px" align="left" id="item11bg">
+		<td><input type="checkbox" id="item11" onclick="swapbg('item11')"></td>
+		<td>Ancient Watcher</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">4</td>
+		<td align="center">5</td>
+		<td>Can't Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item12bg">
+		<td><input type="checkbox" id="item12" onclick="swapbg('item12')"></td>
+		<td>Angry Chicken</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td>Enrage: +5 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item13bg">
+		<td><input type="checkbox" id="item13" onclick="swapbg('item13')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?450-Arathi-Weaponsmith" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/54.png">Arathi Weaponsmith</a></td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td>Battlecry: Equip a 2/2 Weapon.</td>
+	</tr>
+		<tr height="45px" align="left" id="item14bg">
+		<td><input type="checkbox" id="item14" onclick="swapbg('item14')"></td>
+		<td>Arcane Explosion</td>
+		<td align="center"><img src="../../templates/images/Mage.png" alt="Mage" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 1 damage to all enemies.</td>
+	</tr>
+		<tr height="45px" align="left" id="item15bg">
+		<td><input type="checkbox" id="item15" onclick="swapbg('item15')"></td>
+		<td>Arcane Golem</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">4</td>
+		<td align="center">2</td>
+		<td>Charge. Battlecry: Give your opponent a Mana Crystal.</td>
+	</tr>
+		<tr height="45px" align="left" id="item16bg">
+		<td><input type="checkbox" id="item16" onclick="swapbg('item16')"></td>
+		<td>Arcane Intellect</td>
+		<td align="center"><img src="../../templates/images/Mage.png" alt="Mage" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Draw 2 cards.</td>
+	</tr>
+		<tr height="45px" align="left" id="item17bg">
+		<td><input type="checkbox" id="item17" onclick="swapbg('item17')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?475-Arcane-Missles" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/58.png">Arcane Missiles</a></td>
+		<td align="center"><img src="../../templates/images/Mage.png" alt="Mage" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Shoot 3 missiles at random enemies for 1 damage each.</td>
+	</tr>
+		<tr height="45px" align="left" id="item18bg">
+		<td><input type="checkbox" id="item18" onclick="swapbg('item18')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?451-Arcanite-Reaper" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/215.png">Arcanite Reaper</a></td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Basic</td>
+		<td>Weapon</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center">5</td>
+		<td align="center">2</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item19bg">
+		<td><input type="checkbox" id="item19" onclick="swapbg('item19')"></td>
+		<td>Archmage Antonidas</td>
+		<td align="center"><img src="../../templates/images/Mage.png" alt="Mage" \></td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">7</td>
+		<td align="center">5</td>
+		<td align="center">7</td>
+		<td>Whenever you cast a spell, put a 'Fireball' spell into your hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item20bg">
+		<td><input type="checkbox" id="item20" onclick="swapbg('item20')"></td>
+		<td>Argent Squire</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td>Divine Shield</td>
+	</tr>
+		<tr height="45px" align="left" id="item21bg">
+		<td><input type="checkbox" id="item21" onclick="swapbg('item21')"></td>
+		<td>Armorsmith</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td>Whenever a friendly minion takes damage, gain 1 Armor.</td>
+	</tr>
+		<tr height="45px" align="left" id="item22bg">
+		<td><input type="checkbox" id="item22" onclick="swapbg('item22')"></td>
+		<td>Assassin's Blade</td>
+		<td align="center"><img src="../../templates/images/.png" alt="" \></td>
+		<td>Basic</td>
+		<td>Weapon</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center">3</td>
+		<td align="center">4</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item23bg">
+		<td><input type="checkbox" id="item23" onclick="swapbg('item23')"></td>
+		<td>Assassinate</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Destroy an enemy minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item24bg">
+		<td><input type="checkbox" id="item24" onclick="swapbg('item24')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?73-Auchenai-Soulpriest" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/60.png">Auchenai Soulpriest</a></td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">3</td>
+		<td align="center">5</td>
+		<td>Your cards and powers that restore Health now deal damage instead.</td>
+	</tr>
+		<tr height="45px" align="left" id="item25bg">
+		<td><input type="checkbox" id="item25" onclick="swapbg('item25')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?438-Baby-Murloc" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/239.png">Baby Murloc (April's Fool)</a></td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td>Murloc</td>
+		<td align="center">0</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td>Battlecry: You bring awesome cuteness to the game, your opponent cannot attack while Baby Murloc is in play.</td>
+	</tr>
+		<tr height="45px" align="left" id="item26bg">
+		<td><input type="checkbox" id="item26" onclick="swapbg('item26')"></td>
+		<td>Backstab</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 2 damage to an enemy minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item27bg">
+		<td><input type="checkbox" id="item27" onclick="swapbg('item27')"></td>
+		<td>Baron Geddon</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">7</td>
+		<td align="center">7</td>
+		<td align="center">5</td>
+		<td>At the end of your turn, deal 2 damage to ALL other characters</td>
+	</tr>
+		<tr height="45px" align="left" id="item28bg">
+		<td><input type="checkbox" id="item28" onclick="swapbg('item28')"></td>
+		<td>Battle Rage</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Draw a card for each damaged minion on the battlefield.</td>
+	</tr>
+		<tr height="45px" align="left" id="item29bg">
+		<td><input type="checkbox" id="item29" onclick="swapbg('item29')"></td>
+		<td>Betrayal</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>An enemy minion deals its damage to the minions next to it.</td>
+	</tr>
+		<tr height="45px" align="left" id="item30bg">
+		<td><input type="checkbox" id="item30" onclick="swapbg('item30')"></td>
+		<td>Big Game Hunter</td>
+		<td align="center">All</td>
+		<td>Epic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">4</td>
+		<td align="center">2</td>
+		<td>Battlecry: Destroy a minion with an Attack of 7 or more.</td>
+	</tr>
+		<tr height="45px" align="left" id="item31bg">
+		<td><input type="checkbox" id="item31" onclick="swapbg('item31')"></td>
+		<td>Blade Flurry</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal your weapon's damage to all enemy minions.</td>
+	</tr>
+		<tr height="45px" align="left" id="item32bg">
+		<td><input type="checkbox" id="item32" onclick="swapbg('item32')"></td>
+		<td>Blood Knight</td>
+		<td align="center">All</td>
+		<td>Epic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td>Battlecry: All minions lose Divine Shield. Gain +3/+3 for each Shield lost.</td>
+	</tr>
+		<tr height="45px" align="left" id="item33bg">
+		<td><input type="checkbox" id="item33" onclick="swapbg('item33')"></td>
+		<td>Bloodfen Raptor</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item34bg">
+		<td><input type="checkbox" id="item34" onclick="swapbg('item34')"></td>
+		<td>Bloodlust</td>
+		<td align="center"><img src="../../templates/images/Shaman.png" alt="Shaman" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give your minions +3 Attack this turn.</td>
+	</tr>
+		<tr height="45px" align="left" id="item35bg">
+		<td><input type="checkbox" id="item35" onclick="swapbg('item35')"></td>
+		<td>Bloodmage Thalnos</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td>Spell Power +1/ Deathrattle: Draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item36bg">
+		<td><input type="checkbox" id="item36" onclick="swapbg('item36')"></td>
+		<td>Bloodsail Raider</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td>Pirate</td>
+		<td align="center">2</td>
+		<td align="center">0</td>
+		<td align="center">3</td>
+		<td>Battlecry: Gain Attack equal to the Attack of your weapon.</td>
+	</tr>
+		<tr height="45px" align="left" id="item37bg">
+		<td><input type="checkbox" id="item37" onclick="swapbg('item37')"></td>
+		<td>Bluegill Warrior</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Murloc</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td>Charge.</td>
+	</tr>
+		<tr height="45px" align="left" id="item38bg">
+		<td><input type="checkbox" id="item38" onclick="swapbg('item38')"></td>
+		<td>Boulderfist Ogre</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center">6</td>
+		<td align="center">7</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item39bg">
+		<td><input type="checkbox" id="item39" onclick="swapbg('item39')"></td>
+		<td>Brawl</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Epic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Destroy all minions except one. (chosen randomly)</td>
+	</tr>
+		<tr height="45px" align="left" id="item40bg">
+		<td><input type="checkbox" id="item40" onclick="swapbg('item40')"></td>
+		<td>Cabal Shadow Priest</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Epic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center">3</td>
+		<td align="center">4</td>
+		<td>Battlecry: Take control of an enemy minion that has 2 or less Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item41bg">
+		<td><input type="checkbox" id="item41" onclick="swapbg('item41')"></td>
+		<td>Cairne Bloodhoof</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center">4</td>
+		<td align="center">5</td>
+		<td>Deathrattle: Summon a 4/5 Baine Bloodhoof.</td>
+	</tr>
+		<tr height="45px" align="left" id="item42bg">
+		<td><input type="checkbox" id="item42" onclick="swapbg('item42')"></td>
+		<td>Captain's Parrot</td>
+		<td align="center">All</td>
+		<td>Epic</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">2</td>
+		<td>Whenever you play a Pirate, draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item43bg">
+		<td><input type="checkbox" id="item43" onclick="swapbg('item43')"></td>
+		<td>Cenarius</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">8</td>
+		<td align="center">5</td>
+		<td align="center">8</td>
+		<td>Choose One - Give all friendly minions +2/+2; or summon two 2/2 Treants with Taunt.</td>
+	</tr>
+		<tr height="45px" align="left" id="item44bg">
+		<td><input type="checkbox" id="item44" onclick="swapbg('item44')"></td>
+		<td>Chaos Bolt</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 2 damage to a minion. If the target is a Demon, give it +2/+2 instead.</td>
+	</tr>
+		<tr height="45px" align="left" id="item45bg">
+		<td><input type="checkbox" id="item45" onclick="swapbg('item45')"></td>
+		<td>Charge</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give your minions Charge this turn.</td>
+	</tr>
+		<tr height="45px" align="left" id="item46bg">
+		<td><input type="checkbox" id="item46" onclick="swapbg('item46')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?479-Chillwind-Yeti" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/29.png">Chillwind Yeti</a></td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td align="center">5</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item47bg">
+		<td><input type="checkbox" id="item47" onclick="swapbg('item47')"></td>
+		<td>Circle of Healing</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Restore 4 Health to ALL minions.</td>
+	</tr>
+		<tr height="45px" align="left" id="item48bg">
+		<td><input type="checkbox" id="item48" onclick="swapbg('item48')"></td>
+		<td>Claw</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give your hero +3 Attack this turn.</td>
+	</tr>
+		<tr height="45px" align="left" id="item49bg">
+		<td><input type="checkbox" id="item49" onclick="swapbg('item49')"></td>
+		<td>Cleave</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 2 damage to two random enemy minions.</td>
+	</tr>
+		<tr height="45px" align="left" id="item50bg">
+		<td><input type="checkbox" id="item50" onclick="swapbg('item50')"></td>
+		<td>Cold Blood</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give a minion +2 Attack. Combo: +4 Attack instead.</td>
+	</tr>
+		<tr height="45px" align="left" id="item51bg">
+		<td><input type="checkbox" id="item51" onclick="swapbg('item51')"></td>
+		<td>Coldlight Oracle</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td>Murloc</td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Battlecry: Each player draws 2 cards.</td>
+	</tr>
+		<tr height="45px" align="left" id="item52bg">
+		<td><input type="checkbox" id="item52" onclick="swapbg('item52')"></td>
+		<td>Coldlight Seer</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td>Murloc</td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td>Battlecry: Give ALL other Murlocs +2 Health.</td>
+	</tr>
+		<tr height="45px" align="left" id="item53bg">
+		<td><input type="checkbox" id="item53" onclick="swapbg('item53')"></td>
+		<td>Conceal</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give a friendly minion Stealth.</td>
+	</tr>
+		<tr height="45px" align="left" id="item54bg">
+		<td><input type="checkbox" id="item54" onclick="swapbg('item54')"></td>
+		<td>Core Hound</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">7</td>
+		<td align="center">9</td>
+		<td align="center">4</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item55bg">
+		<td><input type="checkbox" id="item55" onclick="swapbg('item55')"></td>
+		<td>Crazed Alchemist</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Battlecry: Swap the Attack and Health of a minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item56bg">
+		<td><input type="checkbox" id="item56" onclick="swapbg('item56')"></td>
+		<td>Cruel Taskmaster</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td>Battlecry: Deal 1 damage to a minion and give it +2 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item57bg">
+		<td><input type="checkbox" id="item57" onclick="swapbg('item57')"></td>
+		<td>Cult Master</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">3</td>
+		<td align="center">4</td>
+		<td>When one of your other minions dies, draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item58bg">
+		<td><input type="checkbox" id="item58" onclick="swapbg('item58')"></td>
+		<td>Dalaran Mage</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td align="center">4</td>
+		<td>Spell Power +1</td>
+	</tr>
+		<tr height="45px" align="left" id="item59bg">
+		<td><input type="checkbox" id="item59" onclick="swapbg('item59')"></td>
+		<td>Dark Command</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Rare</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Gain control of an enemy minion with 3 or less Attack until end of turn.</td>
+	</tr>
+		<tr height="45px" align="left" id="item60bg">
+		<td><input type="checkbox" id="item60" onclick="swapbg('item60')"></td>
+		<td>Dark Iron Dwarf</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td>Battlecry: Give a minion +2 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item61bg">
+		<td><input type="checkbox" id="item61" onclick="swapbg('item61')"></td>
+		<td>Darkscale Healer</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center">4</td>
+		<td align="center">5</td>
+		<td>Battlecry: Restore 2 Health to all friendly characters.</td>
+	</tr>
+		<tr height="45px" align="left" id="item62bg">
+		<td><input type="checkbox" id="item62" onclick="swapbg('item62')"></td>
+		<td>Darkspear Hunter</td>
+		<td align="center"><img src="../../templates/images/Hunter.png" alt="Hunter" \></td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Whenever you play a Beast, the Beast gains +1/+1.</td>
+	</tr>
+		<tr height="45px" align="left" id="item63bg">
+		<td><input type="checkbox" id="item63" onclick="swapbg('item63')"></td>
+		<td>Deadly Poison</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Your equipped weapon gets +2 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item64bg">
+		<td><input type="checkbox" id="item64" onclick="swapbg('item64')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?474-Deathwing" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/89.png">Deathwing</a></td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td>Dragon</td>
+		<td align="center">10</td>
+		<td align="center">12</td>
+		<td align="center">12</td>
+		<td>Battlecry: Destroy all other minions and discard your hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item65bg">
+		<td><input type="checkbox" id="item65" onclick="swapbg('item65')"></td>
+		<td>Defender of Argus</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td>Battlecry: Give adjacent minions +1/+1 and Taunt.</td>
+	</tr>
+		<tr height="45px" align="left" id="item66bg">
+		<td><input type="checkbox" id="item66" onclick="swapbg('item66')"></td>
+		<td>Defias Ringleader</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td>Combo: Summon a 2/2 Defias Bandit.</td>
+	</tr>
+		<tr height="45px" align="left" id="item67bg">
+		<td><input type="checkbox" id="item67" onclick="swapbg('item67')"></td>
+		<td>Demolisher</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">1</td>
+		<td align="center">4</td>
+		<td>At the start of your turn, deal 2 damage to a random enemy.</td>
+	</tr>
+		<tr height="45px" align="left" id="item68bg">
+		<td><input type="checkbox" id="item68" onclick="swapbg('item68')"></td>
+		<td>Demoralizing Roar</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Enemy minions get -3 Attack this turn.</td>
+	</tr>
+		<tr height="45px" align="left" id="item69bg">
+		<td><input type="checkbox" id="item69" onclick="swapbg('item69')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?480-Dire-Wolf-Alpha" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/30.png">Dire Wolf Alpha</a></td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Adjacent minions have +1 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item70bg">
+		<td><input type="checkbox" id="item70" onclick="swapbg('item70')"></td>
+		<td>Divine Spirit</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Double a minion's Health.</td>
+	</tr>
+		<tr height="45px" align="left" id="item71bg">
+		<td><input type="checkbox" id="item71" onclick="swapbg('item71')"></td>
+		<td>Doomguard</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td>Demon</td>
+		<td align="center">5</td>
+		<td align="center">5</td>
+		<td align="center">7</td>
+		<td>Charge. Battlecry: Discard two random cards.</td>
+	</tr>
+		<tr height="45px" align="left" id="item72bg">
+		<td><input type="checkbox" id="item72" onclick="swapbg('item72')"></td>
+		<td>Doomsayer</td>
+		<td align="center">All</td>
+		<td>Epic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">0</td>
+		<td align="center">7</td>
+		<td>At the start of your turn, destroy ALL minions.</td>
+	</tr>
+		<tr height="45px" align="left" id="item73bg">
+		<td><input type="checkbox" id="item73" onclick="swapbg('item73')"></td>
+		<td>Drain Life</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 2 damage. Restore 2 Health to your hero.</td>
+	</tr>
+		<tr height="45px" align="left" id="item74bg">
+		<td><input type="checkbox" id="item74" onclick="swapbg('item74')"></td>
+		<td>Dust Devil</td>
+		<td align="center"><img src="../../templates/images/Shaman.png" alt="Shaman" \></td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center">3</td>
+		<td align="center">1</td>
+		<td>Windfury. Overload (2)</td>
+	</tr>
+		<tr height="45px" align="left" id="item75bg">
+		<td><input type="checkbox" id="item75" onclick="swapbg('item75')"></td>
+		<td>Earthen Ring Farseer</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td>Battlecry: Restore 3 Health.</td>
+	</tr>
+		<tr height="45px" align="left" id="item76bg">
+		<td><input type="checkbox" id="item76" onclick="swapbg('item76')"></td>
+		<td>Edwin VanCleef</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Stealth. Combo: Gain +2/+2 for each other card played this turn.</td>
+	</tr>
+		<tr height="45px" align="left" id="item77bg">
+		<td><input type="checkbox" id="item77" onclick="swapbg('item77')"></td>
+		<td>Elven Archer</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td>Battlecry: Deal 1 damage.</td>
+	</tr>
+		<tr height="45px" align="left" id="item78bg">
+		<td><input type="checkbox" id="item78" onclick="swapbg('item78')"></td>
+		<td>Emperor Cobra</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">3</td>
+		<td align="center">0</td>
+		<td align="center">1</td>
+		<td>Has +Attack equal to the number of Mana Crystals you have.</td>
+	</tr>
+		<tr height="45px" align="left" id="item79bg">
+		<td><input type="checkbox" id="item79" onclick="swapbg('item79')"></td>
+		<td>Equality</td>
+		<td align="center"><img src="../../templates/images/Paladin.png" alt="Paladin" \></td>
+		<td>Rare</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Change the Health of ALL minions to 1.</td>
+	</tr>
+		<tr height="45px" align="left" id="item80bg">
+		<td><input type="checkbox" id="item80" onclick="swapbg('item80')"></td>
+		<td>Eviscerate</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 2 damage. Combo: Deal 4 damage instead.</td>
+	</tr>
+		<tr height="45px" align="left" id="item81bg">
+		<td><input type="checkbox" id="item81" onclick="swapbg('item81')"></td>
+		<td>Execute</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Destroy a damaged enemy minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item82bg">
+		<td><input type="checkbox" id="item82" onclick="swapbg('item82')"></td>
+		<td>Explosive Trap</td>
+		<td align="center"><img src="../../templates/images/Hunter.png" alt="Hunter" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Secret: When a minion damages your hero, deal 2 damage to all enemies.</td>
+	</tr>
+		<tr height="45px" align="left" id="item83bg">
+		<td><input type="checkbox" id="item83" onclick="swapbg('item83')"></td>
+		<td>Fade</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give your minions Taunt. Draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item84bg">
+		<td><input type="checkbox" id="item84" onclick="swapbg('item84')"></td>
+		<td>Faerie Dragon</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td>Can't be targeted by Spells or Hero Powers.</td>
+	</tr>
+		<tr height="45px" align="left" id="item85bg">
+		<td><input type="checkbox" id="item85" onclick="swapbg('item85')"></td>
+		<td>Fan of Knives</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 1-2 damage to all enemy minions.</td>
+	</tr>
+		<tr height="45px" align="left" id="item86bg">
+		<td><input type="checkbox" id="item86" onclick="swapbg('item86')"></td>
+		<td>Felguard</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td>Demon</td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td align="center">5</td>
+		<td>Taunt. Battlecry: Destroy one of your Mana Crystals.</td>
+	</tr>
+		<tr height="45px" align="left" id="item87bg">
+		<td><input type="checkbox" id="item87" onclick="swapbg('item87')"></td>
+		<td>Fiery War Axe</td>
+		<td align="center"><img src="../../templates/images/.png" alt="" \></td>
+		<td>Basic</td>
+		<td>Weapon</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item88bg">
+		<td><input type="checkbox" id="item88" onclick="swapbg('item88')"></td>
+		<td>Fireball</td>
+		<td align="center"><img src="../../templates/images/Mage.png" alt="Mage" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 6 damage.</td>
+	</tr>
+		<tr height="45px" align="left" id="item89bg">
+		<td><input type="checkbox" id="item89" onclick="swapbg('item89')"></td>
+		<td>Flesheating Ghoul</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td>Whenever a minion dies, gain +1 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item90bg">
+		<td><input type="checkbox" id="item90" onclick="swapbg('item90')"></td>
+		<td>Forked Lightning</td>
+		<td align="center"><img src="../../templates/images/Shaman.png" alt="Shaman" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 2 damage to 2 random enemy minions. Overload: (1)</td>
+	</tr>
+		<tr height="45px" align="left" id="item91bg">
+		<td><input type="checkbox" id="item91" onclick="swapbg('item91')"></td>
+		<td>Freezing Trap</td>
+		<td align="center"><img src="../../templates/images/Hunter.png" alt="Hunter" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Secret: When an enemy attacks, Freeze it this turn and next turn.</td>
+	</tr>
+		<tr height="45px" align="left" id="item92bg">
+		<td><input type="checkbox" id="item92" onclick="swapbg('item92')"></td>
+		<td>Frost Bolt</td>
+		<td align="center"><img src="../../templates/images/Mage.png" alt="Mage" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 3 damage to a character and Freeze.</td>
+	</tr>
+		<tr height="45px" align="left" id="item93bg">
+		<td><input type="checkbox" id="item93" onclick="swapbg('item93')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?453-Frost-Shock" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/244.png">Frost Shock</a></td>
+		<td align="center"><img src="../../templates/images/Shaman.png" alt="Shaman" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 1 damage to an enemy character and Freeze it.</td>
+	</tr>
+		<tr height="45px" align="left" id="item94bg">
+		<td><input type="checkbox" id="item94" onclick="swapbg('item94')"></td>
+		<td>Frostwolf Grunt</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Taunt</td>
+	</tr>
+		<tr height="45px" align="left" id="item95bg">
+		<td><input type="checkbox" id="item95" onclick="swapbg('item95')"></td>
+		<td>Frothing Berserker</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">1</td>
+		<td align="center">4</td>
+		<td>Whenever a minion takes damage, gain +1 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item96bg">
+		<td><input type="checkbox" id="item96" onclick="swapbg('item96')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?481-Gadgetzan-Auctioneer" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/14.png">Gadgetzan Auctioneer</a></td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td>When you cast a spell, draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item97bg">
+		<td><input type="checkbox" id="item97" onclick="swapbg('item97')"></td>
+		<td>Goldshire Footman</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">2</td>
+		<td>Taunt</td>
+	</tr>
+		<tr height="45px" align="left" id="item98bg">
+		<td><input type="checkbox" id="item98" onclick="swapbg('item98')"></td>
+		<td>Gorehowl</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Epic</td>
+		<td>Weapon</td>
+		<td></td>
+		<td align="center">7</td>
+		<td align="center">7</td>
+		<td align="center">1</td>
+		<td>Attacking a minion doesn't cost Durability.</td>
+	</tr>
+		<tr height="45px" align="left" id="item99bg">
+		<td><input type="checkbox" id="item99" onclick="swapbg('item99')"></td>
+		<td>Greater Heal</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Rare</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Restore 2 Health to a character for each card in your opponent's hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item100bg">
+		<td><input type="checkbox" id="item100" onclick="swapbg('item100')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?482-Grimscale-Oracle" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/1.png">Grimscale Oracle</a></td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Murloc</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td>ALL other Murlocs have +1 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item101bg">
+		<td><input type="checkbox" id="item101" onclick="swapbg('item101')"></td>
+		<td>Headcrack</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Rare</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 2 damage to the enemy hero. Combo: Return this card to your hand next turn.</td>
+	</tr>
+		<tr height="45px" align="left" id="item102bg">
+		<td><input type="checkbox" id="item102" onclick="swapbg('item102')"></td>
+		<td>Healing Touch</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Restore 8 Health.</td>
+	</tr>
+		<tr height="45px" align="left" id="item103bg">
+		<td><input type="checkbox" id="item103" onclick="swapbg('item103')"></td>
+		<td>Hellfire</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 3 damage to ALL characters.</td>
+	</tr>
+		<tr height="45px" align="left" id="item104bg">
+		<td><input type="checkbox" id="item104" onclick="swapbg('item104')"></td>
+		<td>Heroic Strike</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give your hero +4 Attack this turn.</td>
+	</tr>
+		<tr height="45px" align="left" id="item105bg">
+		<td><input type="checkbox" id="item105" onclick="swapbg('item105')"></td>
+		<td>Hex</td>
+		<td align="center"><img src="../../templates/images/Shaman.png" alt="Shaman" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>(incomplete description) Transform a minion in...</td>
+	</tr>
+		<tr height="45px" align="left" id="item106bg">
+		<td><input type="checkbox" id="item106" onclick="swapbg('item106')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?486-Hogger" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/27.png">Hogger</a></td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td>At the end of your turn, summon a 2/2 Gnoll with Taunt.</td>
+	</tr>
+		<tr height="45px" align="left" id="item107bg">
+		<td><input type="checkbox" id="item107" onclick="swapbg('item107')"></td>
+		<td>Holy Nova</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 2 damage to all enemies. Restore 2 Health to all friendly characters.</td>
+	</tr>
+		<tr height="45px" align="left" id="item108bg">
+		<td><input type="checkbox" id="item108" onclick="swapbg('item108')"></td>
+		<td>Holy Smite</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 2 damage.</td>
+	</tr>
+		<tr height="45px" align="left" id="item109bg">
+		<td><input type="checkbox" id="item109" onclick="swapbg('item109')"></td>
+		<td>Ice Lance</td>
+		<td align="center"><img src="../../templates/images/Mage.png" alt="Mage" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Freeze a character. If it was already Frozen deal 4 damage instead.</td>
+	</tr>
+		<tr height="45px" align="left" id="item110bg">
+		<td><input type="checkbox" id="item110" onclick="swapbg('item110')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?483-Illidan-Stormrage" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/16.png">Illidan Stormrage</a></td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">7</td>
+		<td align="center">7</td>
+		<td align="center">7</td>
+		<td>Battlecry: Both players discard 3 cards and draw 3 cards.</td>
+	</tr>
+		<tr height="45px" align="left" id="item111bg">
+		<td><input type="checkbox" id="item111" onclick="swapbg('item111')"></td>
+		<td>Inner Rage</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 1 damage to a minion. It gain +2 Attack this turn.</td>
+	</tr>
+		<tr height="45px" align="left" id="item112bg">
+		<td><input type="checkbox" id="item112" onclick="swapbg('item112')"></td>
+		<td>Innervate</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Gain 2 Mana Crystals this turn only.</td>
+	</tr>
+		<tr height="45px" align="left" id="item113bg">
+		<td><input type="checkbox" id="item113" onclick="swapbg('item113')"></td>
+		<td>Ironbeak Owl</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td>Battlecry: Silence a minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item114bg">
+		<td><input type="checkbox" id="item114" onclick="swapbg('item114')"></td>
+		<td>Ironforge Rifleman</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Battlecry: Deal 1 damage.</td>
+	</tr>
+		<tr height="45px" align="left" id="item115bg">
+		<td><input type="checkbox" id="item115" onclick="swapbg('item115')"></td>
+		<td>Keeper of the Grove</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td>Choose One - Deal 2 damage; or Silence a minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item116bg">
+		<td><input type="checkbox" id="item116" onclick="swapbg('item116')"></td>
+		<td>Kidnapper</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center">5</td>
+		<td align="center">3</td>
+		<td>Combo: Return a minion to its owner's hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item117bg">
+		<td><input type="checkbox" id="item117" onclick="swapbg('item117')"></td>
+		<td>Knife Juggler</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td>When you play a minion, deal 1 damage to a random enemy.</td>
+	</tr>
+		<tr height="45px" align="left" id="item118bg">
+		<td><input type="checkbox" id="item118" onclick="swapbg('item118')"></td>
+		<td>Kobold Geomancer</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Spell Power +1</td>
+	</tr>
+		<tr height="45px" align="left" id="item119bg">
+		<td><input type="checkbox" id="item119" onclick="swapbg('item119')"></td>
+		<td>Kor'kron Elite</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td align="center">3</td>
+		<td>Charge</td>
+	</tr>
+		<tr height="45px" align="left" id="item120bg">
+		<td><input type="checkbox" id="item120" onclick="swapbg('item120')"></td>
+		<td>Leper Gnome</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td>Deathrattle: Deal 2 damage to the enemy hero.</td>
+	</tr>
+		<tr height="45px" align="left" id="item121bg">
+		<td><input type="checkbox" id="item121" onclick="swapbg('item121')"></td>
+		<td>Lightning Bolt</td>
+		<td align="center"><img src="../../templates/images/Shaman.png" alt="Shaman" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 3 damage. Overload: (1)</td>
+	</tr>
+		<tr height="45px" align="left" id="item122bg">
+		<td><input type="checkbox" id="item122" onclick="swapbg('item122')"></td>
+		<td>Lightwarden</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">2</td>
+		<td>Whenever a character is healed, gain +1 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item123bg">
+		<td><input type="checkbox" id="item123" onclick="swapbg('item123')"></td>
+		<td>Lightwell</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Rare</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>At the start of your turn, restore 3 Health to a damaged friendly character.</td>
+	</tr>
+		<tr height="45px" align="left" id="item124bg">
+		<td><input type="checkbox" id="item124" onclick="swapbg('item124')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?487-Loot-Hoarder" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/23.png">Loot Hoarder</a></td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td>Deathrattle: Draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item125bg">
+		<td><input type="checkbox" id="item125" onclick="swapbg('item125')"></td>
+		<td>Lord Jaraxxus</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td>Demon</td>
+		<td align="center">9</td>
+		<td align="center">3</td>
+		<td align="center">15</td>
+		<td>Battlecry: Destroy your hero and replace him with Lord Jaraxxus.</td>
+	</tr>
+		<tr height="45px" align="left" id="item126bg">
+		<td><input type="checkbox" id="item126" onclick="swapbg('item126')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?430-Lord-of-the-Arena" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/226.png">Lord of the Arena</a></td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center">6</td>
+		<td align="center">4</td>
+		<td>Taunt</td>
+	</tr>
+		<tr height="45px" align="left" id="item127bg">
+		<td><input type="checkbox" id="item127" onclick="swapbg('item127')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?484-Lorewalker-Cho" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/223.png">Lorewalker Cho</a></td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">3</td>
+		<td>Whenever a player casts a spell, put a copy into the other player's hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item128bg">
+		<td><input type="checkbox" id="item128" onclick="swapbg('item128')"></td>
+		<td>Mad Bomber</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td>Battlecry: Deal 3 damage randomly split between all other characters.</td>
+	</tr>
+		<tr height="45px" align="left" id="item129bg">
+		<td><input type="checkbox" id="item129" onclick="swapbg('item129')"></td>
+		<td>Magma Rager</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">5</td>
+		<td align="center">1</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item130bg">
+		<td><input type="checkbox" id="item130" onclick="swapbg('item130')"></td>
+		<td>Malygos</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td>Dragon</td>
+		<td align="center">9</td>
+		<td align="center">4</td>
+		<td align="center">12</td>
+		<td>Spell Power +5</td>
+	</tr>
+		<tr height="45px" align="left" id="item131bg">
+		<td><input type="checkbox" id="item131" onclick="swapbg('item131')"></td>
+		<td>Mana Addict</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td align="center">3</td>
+		<td>Whenever you cast a spell, gain +3 Attack this turn.</td>
+	</tr>
+		<tr height="45px" align="left" id="item132bg">
+		<td><input type="checkbox" id="item132" onclick="swapbg('item132')"></td>
+		<td>Mana Wraith</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>AL minions costs (1) more.</td>
+	</tr>
+		<tr height="45px" align="left" id="item133bg">
+		<td><input type="checkbox" id="item133" onclick="swapbg('item133')"></td>
+		<td>Mana Wyrm</td>
+		<td align="center"><img src="../../templates/images/Mage.png" alt="Mage" \></td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center">0</td>
+		<td align="center">3</td>
+		<td>Whenever you cast a spell, gain +1 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item134bg">
+		<td><input type="checkbox" id="item134" onclick="swapbg('item134')"></td>
+		<td>Mark of the Wild</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give a minion Taunt and +2/+2. (+2 Attack and +2 Health)</td>
+	</tr>
+		<tr height="45px" align="left" id="item135bg">
+		<td><input type="checkbox" id="item135" onclick="swapbg('item135')"></td>
+		<td>Mass Dispel</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Rare</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Silence all enemy minions. Draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item136bg">
+		<td><input type="checkbox" id="item136" onclick="swapbg('item136')"></td>
+		<td>Master of Disguise</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">4</td>
+		<td align="center">3</td>
+		<td>Battlecry: Give a friendly minion Stealth.</td>
+	</tr>
+		<tr height="45px" align="left" id="item137bg">
+		<td><input type="checkbox" id="item137" onclick="swapbg('item137')"></td>
+		<td>Master Swordsmith</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td>At the end of your turn, give another random friendly Minion +1 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item138bg">
+		<td><input type="checkbox" id="item138" onclick="swapbg('item138')"></td>
+		<td>Mega-Blast!!!</td>
+		<td align="center"><img src="../../templates/images/.png" alt="" \></td>
+		<td>Legendary</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">10</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 5 damage to all enemies.</td>
+	</tr>
+		<tr height="45px" align="left" id="item139bg">
+		<td><input type="checkbox" id="item139" onclick="swapbg('item139')"></td>
+		<td>Mental Collapse</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 1 damage to the enemy hero for each card in his hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item140bg">
+		<td><input type="checkbox" id="item140" onclick="swapbg('item140')"></td>
+		<td>Millhouse Manastorm</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Battlecry: Put a 'Mega-Blast' card into your hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item141bg">
+		<td><input type="checkbox" id="item141" onclick="swapbg('item141')"></td>
+		<td>Mind Blast</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 5 damage to the enemy hero.</td>
+	</tr>
+		<tr height="45px" align="left" id="item142bg">
+		<td><input type="checkbox" id="item142" onclick="swapbg('item142')"></td>
+		<td>Mind Control</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">8</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Take control of an enemy minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item143bg">
+		<td><input type="checkbox" id="item143" onclick="swapbg('item143')"></td>
+		<td>Mind Control Tech</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td>Battlecry: Swap this with a random enemy minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item144bg">
+		<td><input type="checkbox" id="item144" onclick="swapbg('item144')"></td>
+		<td>Mind Vision</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Take a random card from your opponent's hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item145bg">
+		<td><input type="checkbox" id="item145" onclick="swapbg('item145')"></td>
+		<td>Mindgames</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Epic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Put a copy of a random minion from your opponent's deck into the battlefield.</td>
+	</tr>
+		<tr height="45px" align="left" id="item146bg">
+		<td><input type="checkbox" id="item146" onclick="swapbg('item146')"></td>
+		<td>Mogu'shan Warden</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">1</td>
+		<td align="center">7</td>
+		<td>Taunt</td>
+	</tr>
+		<tr height="45px" align="left" id="item147bg">
+		<td><input type="checkbox" id="item147" onclick="swapbg('item147')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?461-Molten-Giant&p=861" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/234.png">Molten Giant</a></td>
+		<td align="center">All</td>
+		<td>Epic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">20</td>
+		<td align="center">10</td>
+		<td align="center">10</td>
+		<td>Costs (1) less for each damage your hero has taken.</td>
+	</tr>
+		<tr height="45px" align="left" id="item148bg">
+		<td><input type="checkbox" id="item148" onclick="swapbg('item148')"></td>
+		<td>Moonfire</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 1 damage.</td>
+	</tr>
+		<tr height="45px" align="left" id="item149bg">
+		<td><input type="checkbox" id="item149" onclick="swapbg('item149')"></td>
+		<td>Mortal Strike</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Rare</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 4 damage. If your hero has 12 or less Health, deal 8 damage instead.</td>
+	</tr>
+		<tr height="45px" align="left" id="item150bg">
+		<td><input type="checkbox" id="item150" onclick="swapbg('item150')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?462-Mountain-Giant&p=864" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/149.png">Mountain Giant</a></td>
+		<td align="center">All</td>
+		<td>Epic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">12</td>
+		<td align="center">10</td>
+		<td align="center">10</td>
+		<td>Costs (1) less for each other card in your hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item151bg">
+		<td><input type="checkbox" id="item151" onclick="swapbg('item151')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?485-Murloc-Raider" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/2.png">Murloc Raider</a></td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Murloc</td>
+		<td align="center">1</td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item152bg">
+		<td><input type="checkbox" id="item152" onclick="swapbg('item152')"></td>
+		<td>Murloc Tidecaller</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td>Murloc</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">2</td>
+		<td>Whenever a Murloc is played, gain +1 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item153bg">
+		<td><input type="checkbox" id="item153" onclick="swapbg('item153')"></td>
+		<td>Murloc Tidehunter</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Murloc</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td>Battlecry: Summon a 1/1 Murloc Scout.</td>
+	</tr>
+		<tr height="45px" align="left" id="item154bg">
+		<td><input type="checkbox" id="item154" onclick="swapbg('item154')"></td>
+		<td>Nat Pagle</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">0</td>
+		<td align="center">5</td>
+		<td>At the end of your turn, you have 50% chance to draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item155bg">
+		<td><input type="checkbox" id="item155" onclick="swapbg('item155')"></td>
+		<td>Nightblade</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td>Battlecry: Deal 3 damage to the enemy hero.</td>
+	</tr>
+		<tr height="45px" align="left" id="item156bg">
+		<td><input type="checkbox" id="item156" onclick="swapbg('item156')"></td>
+		<td>Northshire Cleric</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td align="center">3</td>
+		<td>When a minion is healed, draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item157bg">
+		<td><input type="checkbox" id="item157" onclick="swapbg('item157')"></td>
+		<td>Nourish</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Rare</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Choose One - Gain 2 Mana Crystals; or Draw 3 cards.</td>
+	</tr>
+		<tr height="45px" align="left" id="item158bg">
+		<td><input type="checkbox" id="item158" onclick="swapbg('item158')"></td>
+		<td>Novice Engineer</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td align="center">2</td>
+		<td>Battlecry: Draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item159bg">
+		<td><input type="checkbox" id="item159" onclick="swapbg('item159')"></td>
+		<td>Nozdormu</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td>Dragon</td>
+		<td align="center">9</td>
+		<td align="center">8</td>
+		<td align="center">8</td>
+		<td>Players only have 15 seconds to take their turns.</td>
+	</tr>
+		<tr height="45px" align="left" id="item160bg">
+		<td><input type="checkbox" id="item160" onclick="swapbg('item160')"></td>
+		<td>Oasis Snapjaw</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">4</td>
+		<td align="center">2</td>
+		<td align="center">7</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item161bg">
+		<td><input type="checkbox" id="item161" onclick="swapbg('item161')"></td>
+		<td>Onyxia</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td>Dragon</td>
+		<td align="center">9</td>
+		<td align="center">8</td>
+		<td align="center">8</td>
+		<td>When you draw a card, deal 2 damage to ALL characters.</td>
+	</tr>
+		<tr height="45px" align="left" id="item162bg">
+		<td><input type="checkbox" id="item162" onclick="swapbg('item162')"></td>
+		<td>Patient Assassin</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Epic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td>Stealth. Destroy any minion damaged by the Patient Assassin.</td>
+	</tr>
+		<tr height="45px" align="left" id="item163bg">
+		<td><input type="checkbox" id="item163" onclick="swapbg('item163')"></td>
+		<td>Penance</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 3 damage. Restore 3 Health to your hero.</td>
+	</tr>
+		<tr height="45px" align="left" id="item164bg">
+		<td><input type="checkbox" id="item164" onclick="swapbg('item164')"></td>
+		<td>Perdition's Blade</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Rare</td>
+		<td>Weapon</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Battlecry: Deal 1 damage. Combo: Deal 2 instead.</td>
+	</tr>
+		<tr height="45px" align="left" id="item165bg">
+		<td><input type="checkbox" id="item165" onclick="swapbg('item165')"></td>
+		<td>Pint-sized Summoner</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>The first minion you play each turn costs (2) less.</td>
+	</tr>
+		<tr height="45px" align="left" id="item166bg">
+		<td><input type="checkbox" id="item166" onclick="swapbg('item166')"></td>
+		<td>Pit Lord</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Epic</td>
+		<td>Minion</td>
+		<td>Demon</td>
+		<td align="center">4</td>
+		<td align="center">7</td>
+		<td align="center">7</td>
+		<td>Battlecry: Deal 7 damage to your hero.</td>
+	</tr>
+		<tr height="45px" align="left" id="item167bg">
+		<td><input type="checkbox" id="item167" onclick="swapbg('item167')"></td>
+		<td>Polymorph</td>
+		<td align="center"><img src="../../templates/images/Mage.png" alt="Mage" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Transform a minion into a 1/1 Sheep.</td>
+	</tr>
+		<tr height="45px" align="left" id="item168bg">
+		<td><input type="checkbox" id="item168" onclick="swapbg('item168')"></td>
+		<td>Power of the Wild</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Choose One - Give your minions +1/+1; or summon a 3/2 Panther.</td>
+	</tr>
+		<tr height="45px" align="left" id="item169bg">
+		<td><input type="checkbox" id="item169" onclick="swapbg('item169')"></td>
+		<td>Power Overwhelming</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give a friendly minion +4/+4 until the end of turn. Then, it dies. Horribly.</td>
+	</tr>
+		<tr height="45px" align="left" id="item170bg">
+		<td><input type="checkbox" id="item170" onclick="swapbg('item170')"></td>
+		<td>Power Word: Shield</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give a minion +3 Health.</td>
+	</tr>
+		<tr height="45px" align="left" id="item171bg">
+		<td><input type="checkbox" id="item171" onclick="swapbg('item171')"></td>
+		<td>Prayer of Fortitude</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give your minions +1/+1. (+1 Attack/+1Health)</td>
+	</tr>
+		<tr height="45px" align="left" id="item172bg">
+		<td><input type="checkbox" id="item172" onclick="swapbg('item172')"></td>
+		<td>Preparation</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Epic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>The next spell you can this turn costs (2) less.</td>
+	</tr>
+		<tr height="45px" align="left" id="item173bg">
+		<td><input type="checkbox" id="item173" onclick="swapbg('item173')"></td>
+		<td>Priestess of Elune</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center">5</td>
+		<td align="center">4</td>
+		<td>Battlecry: Restore 4 Health to your hero.</td>
+	</tr>
+		<tr height="45px" align="left" id="item174bg">
+		<td><input type="checkbox" id="item174" onclick="swapbg('item174')"></td>
+		<td>Prophet Velen</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">7</td>
+		<td align="center">5</td>
+		<td align="center">7</td>
+		<td>Battlecry: Draw a card for each undamaged character.</td>
+	</tr>
+		<tr height="45px" align="left" id="item175bg">
+		<td><input type="checkbox" id="item175" onclick="swapbg('item175')"></td>
+		<td>Ragnaros the Firelord</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">8</td>
+		<td align="center">8</td>
+		<td align="center">8</td>
+		<td>Can't Attack. At the end of your turn, deal 8 damage to a random enemy.</td>
+	</tr>
+		<tr height="45px" align="left" id="item176bg">
+		<td><input type="checkbox" id="item176" onclick="swapbg('item176')"></td>
+		<td>Raid Leader</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>You other minions have +1 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item177bg">
+		<td><input type="checkbox" id="item177" onclick="swapbg('item177')"></td>
+		<td>Rampage</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give a damaged minion +3/+3.</td>
+	</tr>
+		<tr height="45px" align="left" id="item178bg">
+		<td><input type="checkbox" id="item178" onclick="swapbg('item178')"></td>
+		<td>Razorfen Hunter</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td>Battlecry: Summon a 1/1 Boar.</td>
+	</tr>
+		<tr height="45px" align="left" id="item179bg">
+		<td><input type="checkbox" id="item179" onclick="swapbg('item179')"></td>
+		<td>Reckless Rocketeer</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td>(Unknown attack and life)</td>
+	</tr>
+		<tr height="45px" align="left" id="item180bg">
+		<td><input type="checkbox" id="item180" onclick="swapbg('item180')"></td>
+		<td>River Crocolisk</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item181bg">
+		<td><input type="checkbox" id="item181" onclick="swapbg('item181')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?477-Sap" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/31.png">Sap</a></td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Return an enemy minion to their hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item182bg">
+		<td><input type="checkbox" id="item182" onclick="swapbg('item182')"></td>
+		<td>Savagery</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Rare</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal damage equal to your hero's attack to all enemy minions.</td>
+	</tr>
+		<tr height="45px" align="left" id="item183bg">
+		<td><input type="checkbox" id="item183" onclick="swapbg('item183')"></td>
+		<td>Scavenging Hyena</td>
+		<td align="center"><img src="../../templates/images/Hunter.png" alt="Hunter" \></td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Whenever a Beast dies, gain +2/+2.</td>
+	</tr>
+		<tr height="45px" align="left" id="item184bg">
+		<td><input type="checkbox" id="item184" onclick="swapbg('item184')"></td>
+		<td>Sea Giant</td>
+		<td align="center">All</td>
+		<td>Epic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">12</td>
+		<td align="center">10</td>
+		<td align="center">10</td>
+		<td>Costs (1) less for each other minion on the battlefield.</td>
+	</tr>
+		<tr height="45px" align="left" id="item185bg">
+		<td><input type="checkbox" id="item185" onclick="swapbg('item185')"></td>
+		<td>Sen'jin Shieldmasta'</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">3</td>
+		<td align="center">5</td>
+		<td>Taunt</td>
+	</tr>
+		<tr height="45px" align="left" id="item186bg">
+		<td><input type="checkbox" id="item186" onclick="swapbg('item186')"></td>
+		<td>Sense Demons</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Put 2 random Demons from your deck into your hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item187bg">
+		<td><input type="checkbox" id="item187" onclick="swapbg('item187')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?476-Shadow-Bolt" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/28.png">Shadow Bolt</a></td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 4 damage to a minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item188bg">
+		<td><input type="checkbox" id="item188" onclick="swapbg('item188')"></td>
+		<td>Shadowform</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Epic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Your Hero Power becomes 'Deal 2 damage'. If already in Shadowform: 3 damage.</td>
+	</tr>
+		<tr height="45px" align="left" id="item189bg">
+		<td><input type="checkbox" id="item189" onclick="swapbg('item189')"></td>
+		<td>Shadowstep</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Return a friendly minion to your hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item190bg">
+		<td><input type="checkbox" id="item190" onclick="swapbg('item190')"></td>
+		<td>Shattered Sun Cleric</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td>Battlecry: Give a friendly minion +1/+1.</td>
+	</tr>
+		<tr height="45px" align="left" id="item191bg">
+		<td><input type="checkbox" id="item191" onclick="swapbg('item191')"></td>
+		<td>Shieldbearer</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">0</td>
+		<td align="center">4</td>
+		<td>Taunt. Enrage: +1 Attack.</td>
+	</tr>
+		<tr height="45px" align="left" id="item192bg">
+		<td><input type="checkbox" id="item192" onclick="swapbg('item192')"></td>
+		<td>SI-7 Agent</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td>Combo: Deal 3 damage.</td>
+	</tr>
+		<tr height="45px" align="left" id="item193bg">
+		<td><input type="checkbox" id="item193" onclick="swapbg('item193')"></td>
+		<td>Silence</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Silence a minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item194bg">
+		<td><input type="checkbox" id="item194" onclick="swapbg('item194')"></td>
+		<td>Silver Hand Knight</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td>Battlecry: Summon a 2/2 Squire.</td>
+	</tr>
+		<tr height="45px" align="left" id="item195bg">
+		<td><input type="checkbox" id="item195" onclick="swapbg('item195')"></td>
+		<td>Silverback Patriarch</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">3</td>
+		<td align="center">1</td>
+		<td align="center">4</td>
+		<td>Taunt</td>
+	</tr>
+		<tr height="45px" align="left" id="item196bg">
+		<td><input type="checkbox" id="item196" onclick="swapbg('item196')"></td>
+		<td>Sinister Strike</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 3 damage to the enemy hero.</td>
+	</tr>
+		<tr height="45px" align="left" id="item197bg">
+		<td><input type="checkbox" id="item197" onclick="swapbg('item197')"></td>
+		<td>Siphon Soul</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Rare</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Destroy a minion. Restore 3 Health to your hero.</td>
+	</tr>
+		<tr height="45px" align="left" id="item198bg">
+		<td><input type="checkbox" id="item198" onclick="swapbg('item198')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?478-Snake-Trap" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/26.png">Snake Trap</a></td>
+		<td align="center"><img src="../../templates/images/Hunter.png" alt="Hunter" \></td>
+		<td>Epic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Secret: When one of your minions is attacked, summon three 1/1 Snakes.</td>
+	</tr>
+		<tr height="45px" align="left" id="item199bg">
+		<td><input type="checkbox" id="item199" onclick="swapbg('item199')"></td>
+		<td>Snipe</td>
+		<td align="center"><img src="../../templates/images/Hunter.png" alt="Hunter" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Secret: When your opponent plays a minion, deal 4 damage to it.</td>
+	</tr>
+		<tr height="45px" align="left" id="item200bg">
+		<td><input type="checkbox" id="item200" onclick="swapbg('item200')"></td>
+		<td>Soulfire</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 4 damage. Discard a random card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item201bg">
+		<td><input type="checkbox" id="item201" onclick="swapbg('item201')"></td>
+		<td>Southsea Deckhand</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td>Pirate</td>
+		<td align="center">1</td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td>Battlecry: Your equipped weapon gets +1 Durability.</td>
+	</tr>
+		<tr height="45px" align="left" id="item202bg">
+		<td><input type="checkbox" id="item202" onclick="swapbg('item202')"></td>
+		<td>Spellbreaker</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td align="center">3</td>
+		<td>Battlecry: Silence a minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item203bg">
+		<td><input type="checkbox" id="item203" onclick="swapbg('item203')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?431-Stonetusk-Boar" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/225.png">Stonetusk Boar</a></td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td>Charge</td>
+	</tr>
+		<tr height="45px" align="left" id="item204bg">
+		<td><input type="checkbox" id="item204" onclick="swapbg('item204')"></td>
+		<td>Stormpike Commando</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center">4</td>
+		<td align="center">2</td>
+		<td>Battlecry: Deal 2 damage.</td>
+	</tr>
+		<tr height="45px" align="left" id="item205bg">
+		<td><input type="checkbox" id="item205" onclick="swapbg('item205')"></td>
+		<td>Stormwind Champion</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center">6</td>
+		<td align="center">6</td>
+		<td>Your other minions have +1/+1.</td>
+	</tr>
+		<tr height="45px" align="left" id="item206bg">
+		<td><input type="checkbox" id="item206" onclick="swapbg('item206')"></td>
+		<td>Stormwind Knight</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center">2</td>
+		<td align="center">5</td>
+		<td>Charge</td>
+	</tr>
+		<tr height="45px" align="left" id="item207bg">
+		<td><input type="checkbox" id="item207" onclick="swapbg('item207')"></td>
+		<td>Succubuus</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Demon</td>
+		<td align="center">2</td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td>Battlecry: Discard a random card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item208bg">
+		<td><input type="checkbox" id="item208" onclick="swapbg('item208')"></td>
+		<td>Sunfury Protector</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td>Battlecry: Your other minions gain Taunt.</td>
+	</tr>
+		<tr height="45px" align="left" id="item209bg">
+		<td><input type="checkbox" id="item209" onclick="swapbg('item209')"></td>
+		<td>Swipe</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">4</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 3 damage to an enemy and 1 damage to all other enemies.</td>
+	</tr>
+		<tr height="45px" align="left" id="item210bg">
+		<td><input type="checkbox" id="item210" onclick="swapbg('item210')"></td>
+		<td>Sylvannas Windrunner</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">5</td>
+		<td align="center">5</td>
+		<td align="center">5</td>
+		<td>Battlecry: Discard your hand. Draw five 3/3 Skeletons.</td>
+	</tr>
+		<tr height="45px" align="left" id="item211bg">
+		<td><input type="checkbox" id="item211" onclick="swapbg('item211')"></td>
+		<td>Tauren Warrior</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td>Taunt. Enrage: +3 Attack</td>
+	</tr>
+		<tr height="45px" align="left" id="item212bg">
+		<td><input type="checkbox" id="item212" onclick="swapbg('item212')"></td>
+		<td>The Beast</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">6</td>
+		<td align="center">10</td>
+		<td align="center">6</td>
+		<td>Deathrattle: Summon a 3/3 Finkle Einhorm for your opponent.</td>
+	</tr>
+		<tr height="45px" align="left" id="item213bg">
+		<td><input type="checkbox" id="item213" onclick="swapbg('item213')"></td>
+		<td>The Black Knight</td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center">4</td>
+		<td align="center">5</td>
+		<td>Battlecry: Destroy a minion with Taunt.</td>
+	</tr>
+		<tr height="45px" align="left" id="item214bg">
+		<td><input type="checkbox" id="item214" onclick="swapbg('item214')"></td>
+		<td>Thoughtsteal</td>
+		<td align="center"><img src="../../templates/images/Priest.png" alt="Priest" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Copy 2 cards from your opponents deck and put them into your hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item215bg">
+		<td><input type="checkbox" id="item215" onclick="swapbg('item215')"></td>
+		<td>Tirion Fording</td>
+		<td align="center"><img src="../../templates/images/Paladin.png" alt="Paladin" \></td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">8</td>
+		<td align="center">6</td>
+		<td align="center">6</td>
+		<td>Divine Shield. Taunt. Battlecry: Draw a card for each enemy minion.</td>
+	</tr>
+		<tr height="45px" align="left" id="item216bg">
+		<td><input type="checkbox" id="item216" onclick="swapbg('item216')"></td>
+		<td>Twisting Nether</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Epic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">8</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Destroy all minions.</td>
+	</tr>
+		<tr height="45px" align="left" id="item217bg">
+		<td><input type="checkbox" id="item217" onclick="swapbg('item217')"></td>
+		<td>Unleash the Hounds</td>
+		<td align="center"><img src="../../templates/images/Hunter.png" alt="Hunter" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Give your Beasts +1/+1 and Charge.</td>
+	</tr>
+		<tr height="45px" align="left" id="item218bg">
+		<td><input type="checkbox" id="item218" onclick="swapbg('item218')"></td>
+		<td>Vanish</td>
+		<td align="center"><img src="../../templates/images/Rogue.png" alt="Rogue" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Return all minions to their owner's hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item219bg">
+		<td><input type="checkbox" id="item219" onclick="swapbg('item219')"></td>
+		<td>Voidwalker</td>
+		<td align="center"><img src="../../templates/images/Warlock.png" alt="Warlock" \></td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td>Demon</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">3</td>
+		<td>Taunt.</td>
+	</tr>
+		<tr height="45px" align="left" id="item220bg">
+		<td><input type="checkbox" id="item220" onclick="swapbg('item220')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?452-Voodoo-Doctor" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/243.png">Voodoo Doctor</a></td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td>Battlecry: Restore 2 Health.</td>
+	</tr>
+		<tr height="45px" align="left" id="item221bg">
+		<td><input type="checkbox" id="item221" onclick="swapbg('item221')"></td>
+		<td>War Golem</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">7</td>
+		<td align="center">7</td>
+		<td align="center">7</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item222bg">
+		<td><input type="checkbox" id="item222" onclick="swapbg('item222')"></td>
+		<td>Warsong Commander</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td align="center">2</td>
+		<td>Your other minions have Charge.</td>
+	</tr>
+		<tr height="45px" align="left" id="item223bg">
+		<td><input type="checkbox" id="item223" onclick="swapbg('item223')"></td>
+		<td>Whirlwind</td>
+		<td align="center"><img src="../../templates/images/Warrior.png" alt="Warrior" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Deal 1 damage to ALL minions.</td>
+	</tr>
+		<tr height="45px" align="left" id="item224bg">
+		<td><input type="checkbox" id="item224" onclick="swapbg('item224')"></td>
+		<td>Wild Growth</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Basic</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Gain an empty Mana Crystal.</td>
+	</tr>
+		<tr height="45px" align="left" id="item225bg">
+		<td><input type="checkbox" id="item225" onclick="swapbg('item225')"></td>
+		<td>Wild Pyromancer</td>
+		<td align="center">All</td>
+		<td>Rare</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td>Whenever you cast a spell, deal 1 damage to a random enemy.</td>
+	</tr>
+		<tr height="45px" align="left" id="item226bg">
+		<td><input type="checkbox" id="item226" onclick="swapbg('item226')"></td>
+		<td>Windfury Harpy</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">6</td>
+		<td align="center">4</td>
+		<td align="center">5</td>
+		<td>Windfury</td>
+	</tr>
+		<tr height="45px" align="left" id="item227bg">
+		<td><input type="checkbox" id="item227" onclick="swapbg('item227')"></td>
+		<td>Wisp</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">0</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td></td>
+	</tr>
+		<tr height="45px" align="left" id="item228bg">
+		<td><input type="checkbox" id="item228" onclick="swapbg('item228')"></td>
+		<td>Wolfrider</td>
+		<td align="center">All</td>
+		<td>Basic</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">3</td>
+		<td align="center">3</td>
+		<td align="center">1</td>
+		<td>Charge</td>
+	</tr>
+		<tr height="45px" align="left" id="item229bg">
+		<td><input type="checkbox" id="item229" onclick="swapbg('item229')"></td>
+		<td>Worgen Infiltrator</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">1</td>
+		<td align="center">2</td>
+		<td align="center">1</td>
+		<td>Stealth</td>
+	</tr>
+		<tr height="45px" align="left" id="item230bg">
+		<td><input type="checkbox" id="item230" onclick="swapbg('item230')"></td>
+		<td>Wrath</td>
+		<td align="center"><img src="../../templates/images/Druid.png" alt="Druid" \></td>
+		<td>Common</td>
+		<td>Spell</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center"></td>
+		<td align="center"></td>
+		<td>Choose One - Deal 3 damage; or Deal 1 damage and draw a card.</td>
+	</tr>
+		<tr height="45px" align="left" id="item231bg">
+		<td><input type="checkbox" id="item231" onclick="swapbg('item231')"></td>
+		<td>Young Dragonhawk</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td>Beast</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td>Windfury</td>
+	</tr>
+		<tr height="45px" align="left" id="item232bg">
+		<td><input type="checkbox" id="item232" onclick="swapbg('item232')"></td>
+		<td>Youthful Brewmaster</td>
+		<td align="center">All</td>
+		<td>Common</td>
+		<td>Minion</td>
+		<td></td>
+		<td align="center">2</td>
+		<td align="center">3</td>
+		<td align="center">2</td>
+		<td>Battlecry: Return a friendly minion from the battlefield to your hand.</td>
+	</tr>
+		<tr height="45px" align="left" id="item233bg">
+		<td><input type="checkbox" id="item233" onclick="swapbg('item233')"></td>
+		<td><a href="http://www.hearthstonehelp.com/showthread.php?75-Ysera" target="_blank" class="hearthstonecardimage" rel="/templates/images/cards/96.png">Ysera</a></td>
+		<td align="center">All</td>
+		<td>Legendary</td>
+		<td>Minion</td>
+		<td>Dragon</td>
+		<td align="center">9</td>
+		<td align="center">4</td>
+		<td align="center">12</td>
+		<td>At the end of your turn, draw a Dream Card.</td>
+	</tr>
+	</tbody>
+</table>
+</div>
+		</div>
+
+		<div id="main_footer"><br />
+<hr />
+<p align="left">This card list is maintained by the Hearthstone community. You are more than welcome to use it as a reference as well as embed it on your own website. All cards present in this list have been checked against videos and screenshots. We have a list of another 40+ cards we can add  but haven't seen them yet and aren't 100% sure if we should add them, if you do, please do not hesitate to <a href="http://www.hearthstonehelp.com/showthread.php?71-Hearthstone-Card-List&p=282" target="_blank">help out!</a></p>
+<p align="left">Here is the code if you'd like to embed this list in your website:<br /><textarea rows="3" cols="40">&lt;iframe src=&quot;http://hearthstonecardlist.com&quot; frameborder=&quot;0&quot; height=&quot;500px&quot; width=&quot;830px&quot;&gt;&lt;/iframe&gt;</textarea>
+<p align="left">This card list will be regularly updated with content and new features such as filters and links. We will also add a customisation system to allow you to change CSS properties for example to have a different background colour or font. If there is demand we'll provide an API to tap into the database. For any questions, suggestions or issues please visit our <a href="http://www.hearthstonehelp.com/showthread.php?71-Hearthstone-Card-List&p=282" target="_blank">dedicated topic</a>.</p>
+<p align="left">
+<strong>Last update: 10th of April 2013</strong><ul>
+<li>Version: 0.2.0: Added filter per class, added French version (currently being translated by <a href="https://twitter.com/HearthstoneFR" target="_blank">@HearthstoneFR</a>), Added links with images (to be completed) and finally working on the German version with <a href="http://www.hearthstonehelp.com/member.php?43-Aremar" target="_blank">Aremar</a>.</li>
+<li>Version: 0.1.4: Ordering is now fixed, you can order anything at anytime (even while filtering) by simply clicking the headers :) (Thank you tablesorter.com!)</li>
+<li>Version: 0.1.3: Added 1 new exclusive card Baby Murloc. Added the first (working) filter (class). If you want to order the list please order it before filtering it. (Will fix this later)</li>
+<li>Version: 0.1.2: Added 14 new cards (228 in total). Added all classes apart for 2 weapons.</li>
+<li>Version: 0.1.1: Added checkboxes to change the background colour of the card. Doesn't do anything else at the moment but will be used to compare cards. Added menu in French and language selection, this will be used for the French version of the card list.</li>
+<li>Version: 0.1.0: Added 49 new cards (214 in total, all known cards from screenshots confirmed) - Added icons for classes - Added multiple menu headers for list clarity - Fixed issue with 0 Attack being blank for minions.</li>
+<li>Version: 0.0.6: Added 29 new cards</li>
+<li>Version: 0.0.5: Added 51 new cards - Fixed the issue in ordering numbers above 9.</li>
+<li>Version: 0.0.4: Added 35 new cards - Ability to order the list by card properties (except description).</li>
+<li>Version: 0.0.3: Added 10 new cards - Ability to link to external page.</li>
+<li>Version: 0.0.2: Added 20 new cards - Bug fixes and added class support</li>
+<li>Version: 0.0.1: Added 20 new cards.</li></ul></p>
+<br /></div>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function() 
+    { 
+        $("#myTable").tablesorter(); 
+    } 
+); 
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39543292-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#filtername").click(function(){
+		$("#filter").slideToggle();
+	});
+});
+</script>
+</body>
+</html>
+            
