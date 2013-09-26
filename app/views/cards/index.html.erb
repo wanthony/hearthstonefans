@@ -1,0 +1,24 @@
+<div class="container" data-ng-controller="CardListCtrl">
+  <table class="table">
+    <thead>
+      <tr>
+        <th ng-click="changeSorting('name')">Name</th>
+        <th ng-click="changeSorting('description')">Description</th>
+        <th ng-click="changeSorting('quality')">Quality</th>
+        <th ng-click="changeSorting('mana_cost')">Mana Cost</th>
+        <th ng-click="changeSorting('attack_damage')">Attack Damage</th>
+        <th ng-click="changeSorting('health')">Health</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="card in cards" data-ng-class="rowClass(card)">
+        <td class="name">{{card.name}}</td>
+        <td class="description">{{card.description}}</td>
+        <td class="quality" data-ng-class="cellClass(card)">{{card.quality}}</td>
+        <td class="mana_cost">{{card.mana_cost}}</td>
+        <td class="attack_damage">{{card.attack_damage}}</td>
+        <td class="health">{{card.health}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

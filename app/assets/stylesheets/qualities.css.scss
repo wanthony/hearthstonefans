@@ -1,0 +1,61 @@
+$quality-basic-color: rgb(15, 175, 3);
+$quality-common-color: rgb(0, 0, 0);
+$quality-rare-color: rgb(25, 142, 255);
+$quality-epic-color: rgb(171, 72, 238);
+$quality-legendary-color: rgb(240, 122, 0);
+
+.basic {
+  color: $quality-basic-color!important;
+}
+
+.common {
+  color: $quality-common-color!important;
+}
+
+.rare {
+  color: $quality-rare-color!important;
+}
+
+.epic {
+  color: $quality-epic-color!important;
+}
+
+.legendary {
+  color: $quality-legendary-color!important;
+}
+
+.row-basic {
+  background-color: transparentize($quality-basic-color, 0.9);
+}
+
+.row-rare {
+  background-color: transparentize($quality-rare-color, 0.9);
+}
+
+.row-epic {
+  background-color: transparentize($quality-epic-color, 0.9);
+}
+
+.row-legendary {
+  background-color: transparentize($quality-legendary-color, 0.9);
+}
+
+.cell-basic {
+  color: $quality-basic-color;
+}
+
+.cell-common {
+  color: $quality-common-color;
+}
+
+.cell-rare {
+  color: $quality-rare-color;
+}
+
+.cell-epic {
+  color: $quality-epic-color;
+}
+
+.cell-legendary {
+  color: $quality-legendary-color;
+}

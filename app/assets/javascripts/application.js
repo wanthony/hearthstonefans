@@ -11,6 +11,12 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
-//= require turbolinks
+//= require angular
+//= require angular-resource
+//= require twitter/bootstrap
+//= require_self
+//= require_tree ./services
+//= require_tree ./controllers
 //= require_tree .
+
+var HSFans = angular.module('HSFans', ['ngResource']);

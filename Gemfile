@@ -38,3 +38,16 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
 end
+
+# AngularJS
+gem 'angularjs-rails'
+
+# JQuery
+gem 'jquery-rails'
+
+# Bootstrap 3
+gem 'anjlab-bootstrap-rails', '>=3.0.0.0', require: 'bootstrap-rails', github: 'anjlab/bootstrap-rails'
+
+gem "bourbon"
+
+gem "thin"
