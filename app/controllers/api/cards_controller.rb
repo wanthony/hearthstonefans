@@ -1,9 +1,19 @@
 class Api::CardsController < ApplicationController
+  respond_to :json
+
   def index
-    render json: Card.all.to_json
+    filters = params.dup.keep_if do |key, value|
+      Card.filterable_attribute?(key)
+    end
+
+    @cards = filters.keys.any? ? Card.where(filters) : Card.all
+
+    respond_with @cards
   end
 
   def show
-    render json: Card.find(params[:id]).to_json
+    @card = Card.find(params[:id])
+
+    respond_with @card
   end
 end
