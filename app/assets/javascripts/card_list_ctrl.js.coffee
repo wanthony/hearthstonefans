@@ -1,4 +1,4 @@
-HSFans.controller('CardListCtrl', ['$scope', 'CardAPI', 'ngProgress', ($scope, CardAPI, ngProgress) ->
+HSFans.controller('CardListCtrl', ['$scope', 'CardAPI', ($scope, CardAPI) ->
   $scope.api = CardAPI
 
   $scope.cards = $scope.api.Card.query()
