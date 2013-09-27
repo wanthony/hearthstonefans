@@ -51,3 +51,5 @@ gem 'anjlab-bootstrap-rails', '>=3.0.0.0', require: 'bootstrap-rails', github: '
 gem "bourbon"
 
 gem "thin"
+
+gem 'rails_12factor', group: :production
