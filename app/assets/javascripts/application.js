@@ -14,9 +14,10 @@
 //= require angular
 //= require angular-resource
 //= require twitter/bootstrap
+//= require ngProgress
 //= require_self
 //= require_tree ./services
 //= require_tree ./controllers
 //= require_tree .
 
-var HSFans = angular.module('HSFans', ['ngResource']);
+var HSFans = angular.module('HSFans', ['ngResource', 'ngProgress']);
