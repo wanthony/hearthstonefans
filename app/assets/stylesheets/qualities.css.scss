@@ -59,3 +59,27 @@ $quality-legendary-color: rgb(240, 122, 0);
 .cell-legendary {
   color: $quality-legendary-color;
 }
+
+.filter-quality-basic {
+  color: $quality-basic-color!important;
+  background-color: transparentize($quality-basic-color, 0.9);
+}
+
+.filter-quality-common {
+  color: $quality-common-color!important;
+}
+
+.filter-quality-rare {
+  color: $quality-rare-color!important;
+  background-color: transparentize($quality-rare-color, 0.9);
+}
+
+.filter-quality-epic {
+  color: $quality-epic-color!important;
+  background-color: transparentize($quality-epic-color, 0.9);
+}
+
+.filter-quality-legendary {
+  color: $quality-legendary-color!important;
+  background-color: transparentize($quality-legendary-color, 0.9);
+}
