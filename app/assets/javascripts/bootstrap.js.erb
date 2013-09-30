@@ -5,10 +5,10 @@ var HSFans = angular.module('HSFans', ['ngResource', 'ui.router'])
     $stateProvider
       .state('home', {
         url: '/home',
-        templateUrl: '/assets/home.html'
+        templateUrl: '<%= asset_path("home.html") %>'
       })
       .state('cards', {
         url: '/cards',
-        templateUrl: '/assets/cards.html'
+        templateUrl: '<%= asset_path("cards.html") %>'
       });
   }]);
