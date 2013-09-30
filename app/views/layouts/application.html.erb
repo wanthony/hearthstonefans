@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html data-ng-app="HSFans">
 <head>
-  <title>Hearthstone Fans</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <title>Hearthstone API</title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -16,15 +16,15 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Card List</a></li>
+          <li class="active"><a data-ui-sref="home">Home</a></li>
+          <li><a data-ui-sref="cards">Card List</a></li>
         </ul>
       </div>
     </div>
   </div>
 </div>
 
-<%= yield %>
+<div class="container" data-ui-view></div>
 
 </body>
 </html>

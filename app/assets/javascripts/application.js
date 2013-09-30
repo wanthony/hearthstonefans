@@ -10,13 +10,9 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
 //= require angular
 //= require angular-resource
-//= require twitter/bootstrap
-//= require_self
+//= require angular-ui-router
+//= require bootstrap
 //= require_tree ./services
 //= require_tree ./controllers
-//= require_tree .
-
-var HSFans = angular.module('HSFans', ['ngResource']);

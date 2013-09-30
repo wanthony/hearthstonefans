@@ -1,5 +1,11 @@
-HSFans.controller('CardListCtrl', ['$scope', 'CardsAPI', ($scope, CardsAPI) ->
-  $scope.api = CardsAPI
+HSFans.controller('CardListCtrl', ['$scope', 'CardAPI', ($scope, CardAPI) ->
+  $scope.api = CardAPI
 
-  debugger
+  $scope.cards = $scope.filteredCards = $scope.api.Card.query()
+
+  $scope.rowClass = (card) ->
+    "row-#{card.quality.toLowerCase()}"
+
+  $scope.cellClass = (card) ->
+    "cell-#{card.quality.toLowerCase()}"
 ])

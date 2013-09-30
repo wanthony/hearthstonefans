@@ -1,13 +1,12 @@
 Hearthstonefans::Application.routes.draw do
   get "home/index"
+  root to: 'home#index'
 
   namespace :api do
     resources :cards, only: [:index, :show], defaults: { format: :json }
   end
 
-  root to: 'home#index'
-
-  resources :cards, only: [:index]
+  get '*path' => 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
