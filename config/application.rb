@@ -20,6 +20,6 @@ module Hearthstonefans
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    config.assets.paths << Dir[Rails.root.join('app', 'assets', 'templates', '**/').to_s]
+    config.assets.paths += Dir[Rails.root.join('app', 'assets', 'templates', '**/').to_s]
   end
 end
