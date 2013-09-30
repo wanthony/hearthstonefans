@@ -17,4 +17,4 @@
 
 config/database.yml
 
-.rbenv
+.rbenv-version
