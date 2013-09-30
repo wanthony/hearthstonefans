@@ -1,0 +1,13 @@
+HSFans.config(['$stateProvider', '$urlRouterProvider', ($stateProvider, $urlRouterProvider) ->
+  $urlRouterProvider.otherwise('/home')
+
+  $stateProvider
+    .state('home', {
+      url: '/home',
+      templateUrl: '<%= asset_path("home.html") %>'
+    })
+    .state('cards', {
+      url: '/cards',
+      templateUrl: '<%= asset_path("cards.html") %>'
+    })
+])

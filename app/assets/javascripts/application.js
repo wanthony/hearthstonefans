@@ -14,5 +14,6 @@
 //= require angular-resource
 //= require angular-ui-router
 //= require bootstrap
+//= require routes
 //= require_tree ./services
 //= require_tree ./controllers
