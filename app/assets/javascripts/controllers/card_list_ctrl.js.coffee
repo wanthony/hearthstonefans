@@ -8,4 +8,11 @@ HSFans.controller('CardListCtrl', ['$scope', 'CardAPI', ($scope, CardAPI) ->
 
   $scope.cellClass = (card) ->
     "cell-#{card.quality.toLowerCase()}"
+
+  $scope.predicate = 'name'
+  $scope.reverse = false
+
+  $scope.changeSorting = (predicate) ->
+    $scope.predicate = predicate
+    $scope.reverse = !$scope.reverse
 ])

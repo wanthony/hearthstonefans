@@ -18,7 +18,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="card in filteredCards | filter:cardNameFilter" data-ng-class="rowClass(card)">
+        <tr ng-repeat="card in filteredCards | filter:cardNameFilter | orderBy:predicate:reverse" data-ng-class="rowClass(card)">
           <td class="name">{{card.name}}</td>
           <td class="description">{{card.description}}</td>
           <td class="quality" data-ng-class="cellClass(card)">{{card.quality}}</td>
