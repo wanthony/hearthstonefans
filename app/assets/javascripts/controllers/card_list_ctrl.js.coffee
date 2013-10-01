@@ -1,4 +1,4 @@
-HSFans.controller('CardListCtrl', ['$scope', 'CardAPI', ($scope, CardAPI) ->
+HSFans.controller('CardListCtrl', ['$scope', 'CardAPI', '$filter', ($scope, CardAPI, $filter) ->
   $scope.api = CardAPI
 
   QUALITY_INDEX_MAP =
@@ -29,4 +29,52 @@ HSFans.controller('CardListCtrl', ['$scope', 'CardAPI', ($scope, CardAPI) ->
       $scope.predicate = predicate
 
     $scope.reverse = !$scope.reverse
+
+  $scope.countCards = (cards, quality) ->
+    count = 0
+
+    for card in cards
+      count += 1 if card.quality == quality
+
+    count
+
+  $scope.basicCount = ->
+    cards = angular.copy($scope.cards)
+
+    filteredCards = $filter('filter')(cards, $scope.cardNameFilter)
+
+    $scope.countCards(filteredCards, 'Basic')
+
+  $scope.commonCount = ->
+    cards = angular.copy($scope.cards)
+
+    filteredCards = $filter('filter')(cards, $scope.cardNameFilter)
+
+    $scope.countCards(filteredCards, 'Common')
+
+  $scope.rareCount = ->
+    cards = angular.copy($scope.cards)
+
+    filteredCards = $filter('filter')(cards, $scope.cardNameFilter)
+
+    $scope.countCards(filteredCards, 'Rare')
+
+  $scope.epicCount = ->
+    cards = angular.copy($scope.cards)
+
+    filteredCards = $filter('filter')(cards, $scope.cardNameFilter)
+
+    $scope.countCards(filteredCards, 'Epic')
+
+  $scope.legendaryCount = ->
+    cards = angular.copy($scope.cards)
+
+    filteredCards = $filter('filter')(cards, $scope.cardNameFilter)
+
+    $scope.countCards(filteredCards, 'Legendary')
+
+  $scope.totalCount = ->
+    cards = angular.copy($scope.cards)
+
+    $filter('filter')(cards, $scope.cardNameFilter).length
 ])
