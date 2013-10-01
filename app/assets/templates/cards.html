@@ -15,6 +15,7 @@
           <th ng-click="changeSorting('mana_cost')">Mana Cost</th>
           <th ng-click="changeSorting('attack_damage')">Attack Damage</th>
           <th ng-click="changeSorting('health')">Health</th>
+          <th ng-show="false">quality_index</th>
         </tr>
       </thead>
       <tbody>
@@ -25,6 +26,7 @@
           <td class="mana_cost">{{card.mana_cost}}</td>
           <td class="attack_damage">{{card.attack_damage}}</td>
           <td class="health">{{card.health}}</td>
+          <td ng-show="false">{{qualityIndexFor(card.quality)}}</td>
         </tr>
       </tbody>
     </table>
