@@ -1,0 +1,41 @@
+<div data-ng-controller="CardListCtrl">
+  <div class="panel panel-default">
+    <div class="panel-heading">Hearthstone Card List</div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="form-group col-sm-4">
+          <input type="text" class="form-control" data-ng-model="cardNameFilter" placeholder="Filter Cards">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          Showing {{totalCount()}} cards (with {{basicCount()}} <span class="basic">Basic</span> cards, {{commonCount()}} <span class="common">Common</span> cards, {{rareCount()}} <span class="rare">Rare</span> cards, {{epicCount()}} <span class="epic">Epic</span> cards, and {{legendaryCount()}} <span class="legendary">Legendary</span> cards)
+        </div>
+      </div>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="clickable" ng-click="changeSorting('name')">Name</th>
+          <th class="clickable description" ng-click="changeSorting('description')">Description</th>
+          <th class="clickable" ng-click="changeSorting('quality')">Quality</th>
+          <th class="clickable" ng-click="changeSorting('mana_cost')">Mana Cost</th>
+          <th class="clickable" ng-click="changeSorting('attack_damage')">Attack Damage</th>
+          <th class="clickable" ng-click="changeSorting('health')">Health</th>
+          <th ng-show="false">quality_index</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="card in filteredCards | filter:cardNameFilter | orderBy:predicate:reverse" data-ng-class="rowClass(card)">
+          <td class="name">{{card.name}}</td>
+          <td class="description">{{card.description}}</td>
+          <td class="quality" data-ng-class="cellClass(card)">{{card.quality}}</td>
+          <td class="mana_cost">{{card.mana_cost}}</td>
+          <td class="attack_damage">{{card.attack_damage}}</td>
+          <td class="health">{{card.health}}</td>
+          <td ng-show="false">{{qualityIndexFor(card.quality)}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
